@@ -1,0 +1,278 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: poppins, sans-serif;
+    line-height: 1.6;
+    background: darkred;
+    color: #333;
+}
+
+header {
+    background: chocolate;
+    padding: 20px;
+}
+
+nav {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold
+}
+
+.links a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.links a:hover {
+    color: brown;
+}
+
+.Hero {
+    background: url(rl.jpg)no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 31px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-content a {
+    background: chocolate;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.hero-content a:hover {
+    background: darkorange;
+}
+
+.features {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.divfeature {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1, );
+}
+
+.feature :hover {
+    transform: scale(1.05);
+}
+
+.feature img {
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    color: chocolate;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #555b55;
+}
+
+
+
+
+footer {
+    text-align: center;
+    color: #555b55;
+}
+
+
+
+
+.Houses {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax (220px, 1fr));
+    gap: 20px;
+
+}
+
+
+.House {
+    background: #fff;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1, );
+    transition: transform 0.3s ease;
+}
+
+.House :hover {
+    transform: scale(1.05);
+
+}
+
+.House img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.House h3 {
+    margin-bottom: 10px;
+}
+
+.House p {
+    color: chocolate;
+}
+
+.House button {
+    background: chocolate;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.hero-content a:hover {
+    background: darkorange;
+
+}
+
+.content {
+    max-width: 500px;
+    margin: 5px auto;
+    background: darkcyan;
+    padding: 39px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 30px;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content form input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.content button {
+    color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.d {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #555b55;
+}
+
+
+.dd {
+    text-align: center;
+    color: bisque;
+}
+
+.abdo {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.dtwo {
+
+
+    text-align: center;
+    color: bisque;
+}
+
+.s {
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+}
+
+
+
+.dthree {
+    text-align: center;
+    color: bisque;
+}
+
+
+.m {
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+}
+
+.dfour{text-align: center;
+    color: bisque;
+}
+.o{ text-decoration: none;
+    text-align: center;
+    color: gray;
+}
+.dfive{text-align: center;
+    color: bisque;
+}
